@@ -1,0 +1,15 @@
+.bg-dark {
+    background-color: #800020 !important;
+    font-family: 'Oxygen', sans-serif;
+    text-align: center;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.navbar-expand-lg {
+    text-align: center;
+}
+
+
