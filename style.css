@@ -26,7 +26,7 @@
     }
 }
 
-/*small devices*/
+/* small devices */
 @media (min-width: 576px) {
     h1 {
         font-size: 150px;
@@ -39,7 +39,7 @@
     }
 }
 
-/*medium devices*/
+/* medium devices */
 @media (min-width: 768px) {
     h1 {
         font-size: 200px;
@@ -52,7 +52,7 @@
     }
 }
 
-/*large devices and up*/
+/* large devices and up */
 @media (min-width: 992px) {
     h1 {
         font-size: 250px;
@@ -64,3 +64,26 @@
         font-size: 35px;
     }
 }
+
+.title-page-bg {
+    background-color: white;
+    color: black;
+    margin-bottom: 5%;
+}
+
+.homepage-bg {
+    background-color: #800020;
+    color: white;
+    margin-bottom: 5%;
+}
+
+.row {
+    margin-bottom: 20px;
+    margin-left: 17%;
+}
+
+.bigger-text {
+    font-size: 18px;
+}
+
+
