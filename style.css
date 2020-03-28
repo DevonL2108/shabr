@@ -85,17 +85,25 @@
 
 .row {
     margin-bottom: 20px;
-    margin-left: 17%;
-}
-
-.row-info-page {
-    margin-bottom: 20px;
-    margin-left: 3%;
 }
 
 .bigger-text {
     font-size: 18px;
-    margin-top: 12%;
+}
+
+.bigger-margin {
+    margin-top: 12%;  
+}
+
+.fix-margin-homepage {
+    /*margin-bottom: 3%;*/
+    margin-left: 10%;
+}
+
+.fix-margin-info-page {
+    margin-left: 16%;
+    text-align: center;
+    
 }
 
 
