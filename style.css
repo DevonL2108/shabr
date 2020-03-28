@@ -8,5 +8,59 @@
     color: white !important;
 }
 
+.center {
+    text-align: center;
+    font-family: 'Oxygen', sans-serif;
+}
 
+/*extra small devices*/
+@media (max-width: 576px) {
+    h1 {
+        font-size: 100px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+}
 
+/*small devices*/
+@media (min-width: 576px) {
+    h1 {
+        font-size: 150px;
+    }
+    h2 {
+        font-size: 35px;
+    }
+    h3 {
+        font-size: 25px;
+    }
+}
+
+/*medium devices*/
+@media (min-width: 768px) {
+    h1 {
+        font-size: 200px;
+    }
+    h2 {
+        font-size: 50px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+}
+
+/*large devices and up*/
+@media (min-width: 992px) {
+    h1 {
+        font-size: 250px;
+    }
+    h2 {
+        font-size: 65px;
+    }
+    h3 {
+        font-size: 35px;
+    }
+}
