@@ -77,13 +77,25 @@
     margin-bottom: 5%;
 }
 
+.info-page-bg {
+    background-color: white;
+    color: black;
+    margin-bottom: 5%;
+}
+
 .row {
     margin-bottom: 20px;
     margin-left: 17%;
 }
 
+.row-info-page {
+    margin-bottom: 20px;
+    margin-left: 3%;
+}
+
 .bigger-text {
     font-size: 18px;
+    margin-top: 12%;
 }
 
 
