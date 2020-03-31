@@ -14,7 +14,7 @@
 }
 
 .top {
-    margin-top: 50px; 
+    margin-top: 50px;
 }
 
 .bot {
@@ -89,21 +89,15 @@
     color: white;
 }
 
-.homepage-bg {
+.homepage-bg, .gallerypage-bg, .contactpage-bg {
     background-color: #800020;
     color: white;
     margin-bottom: 5%;
 }
 
-.info-page-bg {
+.info-page-bg, .testpage-bg {
     background-color: white;
     color: black;
-    margin-bottom: 5%;
-}
-
-.gallerypage-bg {
-    background-color: #800020;
-    color: white;
     margin-bottom: 5%;
 }
 
@@ -132,7 +126,7 @@
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1;
+    z-index: 1030;
 }
 
 .row {
@@ -140,12 +134,12 @@
     margin-right: 0;
     margin-left: 0;
 }
-        
+
 .row .row {
     margin-top: 10px;
     margin-bottom: 0;
 }
-        
+
 [class*="col-"] {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -161,7 +155,7 @@
   background-color: transparent;
   width: 300px;
   height: 200px;
-  perspective: 1000px; 
+  perspective: 1000px;
 }
 
 /* position for the front and back side */
@@ -208,3 +202,11 @@
 
 }
 
+.border {
+    border-width: 5px !important;
+    border-color: #66001a !important;
+}
+
+.black {
+    color: black !important;
+}
