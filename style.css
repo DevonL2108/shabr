@@ -13,6 +13,14 @@
     font-family: 'Oxygen', sans-serif;
 }
 
+.top {
+    margin-top: 50px; 
+}
+
+.bot {
+    margin-bottom: 50px;
+}
+
 /*extra small devices*/
 @media (max-width: 576px) {
     h1 {
@@ -73,6 +81,12 @@
 
 .background-fill {
     background-color: #800020;
+    color: #800020;
+}
+
+.background-fill2 {
+    background-color: white;
+    color: white;
 }
 
 .homepage-bg {
@@ -84,6 +98,12 @@
 .info-page-bg {
     background-color: white;
     color: black;
+    margin-bottom: 5%;
+}
+
+.gallerypage-bg {
+    background-color: #800020;
+    color: white;
     margin-bottom: 5%;
 }
 
@@ -105,4 +125,34 @@
     /*margin-right: 10%;*/
     text-align: center;
     margin-top: 3%;
+}
+
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.row {
+    margin-bottom: 20px;
+    margin-right: 0;
+    margin-left: 0;
+}
+        
+.row .row {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+        
+[class*="col-"] {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.size {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }

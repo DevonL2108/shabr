@@ -36,7 +36,7 @@
             <a class="nav-link" href="#info">Info</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Gallery</a>
+            <a class="nav-link" href="#gallery">Gallery</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Testimonials</a>
@@ -50,50 +50,107 @@
 
     <!-- Title Page -->
     <div class="container-fluid title-page-bg">
-      <h1 class="center">SHABR</h1>
+      <h1 class="top center">SHABR</h1>
       <h2 class="center">Skydance Hot Air Balloon Rides</h2>
-      <h3 class="center">Ride with the wind</h3>
-      <h3 class="center">Dance with the sky</h3>
+      <h3 class="center"><em>Ride with the wind</em></h3>
+      <h3 class="center"><em>Dance with the sky</em></h3>
     </div>
-    
+
     <!-- Homepage -->
     <div class="homepage-bg" id="home">
       <div class="background-fill">.</div> <!-- fix margin -->
-      <h2 class="center">Fun For Everyone!</h2>
+      <h2 class="top center">Fun For Everyone!</h2>
       <div class="row">
         <div class="col-sm-4 order-sm-1 fix-margin-homepage">
           <p class="center bigger-text">Come make a new memory with us. There’s nothing else like it.</p>
         </div>
         <div class="col-sm-4 order-sm-2 fix-margin-homepage">
           <p class="center bigger-text">Fun for both adults and kids. All are welcome!</p>
-        </div> 
+        </div>
         <div class="col-sm-4 order-sm-3 fix-margin-homepage">
           <p class="center bigger-text">Afraid of heights? You won't be after you slow-dance with the sky.</p>
         </div>
       </div>
     </div>
-    
-     <!-- Info Page -->
+
+    <!-- Info Page -->
     <div class="info-page-bg" id="info">
-      <h2 class="center">Information</h2>
+      <div class="background-fill2"></div>
+      <h2 class="top center">Information</h2>
       <i><h3 class="center">All the information you'll need</h3></i>
       <div class="row">
-        <div class="col-sm-6 order-sm-1 fix-margin-info-page">
-          <h4 class="bigger-margin">Time</h4>
-          <p class="bigger-margin">Due to climatic conditions, we can safely fly only in the early morning hours with our primary season and most beautiful months being May through November. Since our launch times vary through the seasons, we ask all our guests to call ahead for the exact meeting time.</p>
+        <div class="top container card" style="width: 18rem;">
+          <img src="../shabr/img/clock.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title">Time</h4>
+              <p class="card-text">Due to climatic conditions, we can safely fly only in the early morning hours with our primary season and most beautiful months being May through November. Since our launch times vary through the seasons, we ask all our guests to call ahead for the exact meeting time.</p>
+            </div>
         </div>
-         <div class="col-sm-6 order-sm-2 fix-margin-info-page">
-          <h4 class="bigger-margin">Weather</h4>
-          <p class="bigger-margin">High winds and/or inclement weather prevent us from flying. We ask all our guests to contact us in the early afternoon prior to their scheduled flight between 12:00 noon and 2:00 p.m. to verify that the forecasted weather conditions will allow their balloon flight.</p>
+        <div class="top container card" style="width: 18rem;">
+          <img src="../shabr/img/weather.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title">Weather</h4>
+              <p class="card-text">High winds and/or inclement weather prevent us from flying. We ask all our guests to contact us in the early afternoon prior to their scheduled flight between 12:00 noon and 2:00 p.m. to verify that the forecasted weather conditions will allow their balloon flight.</p>
+            </div>
         </div>
-         <div class="col-sm-6 order-sm-3 fix-margin-info-page">
-          <h4 class="bigger-margin">Flight</h4>
-          <p class="bigger-margin">Our actual flight time is approximately one to one and a half hours averaging closer to one and a half hours and we suggest to allow three to three and a half hours for the entire adventure.</p>
+        <div class="top container card" style="width: 18rem;">
+          <img src="../shabr/img/flight.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title">Flight</h4>
+              <p class="card-text">Our actual flight time is approximately one to one and a half hours averaging closer to one and a half hours and we suggest to allow three to three and a half hours for the entire adventure.</p>
+            </div>
         </div>
-         <div class="col-sm-6 order-sm-4 fix-margin-info-page">
-          <h4 class="bigger-margin">Participation</h4>
-          <p class="bigger-margin">We encourage all of our guests, if they wish, to participate in both the inflation and deflation of the balloon. We have found it adds greatly to the fun of the entire ballooning experience.</p>
+        <div class="top container card" style="width: 18rem;">
+          <img src="../shabr/img/participation.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title">Participation</h4>
+              <p class="card-text">We encourage all of our guests, if they wish, to participate in both the inflation and deflation of the balloon. We have found it adds greatly to the fun of the entire ballooning experience.</p>
+            </div>
         </div>
+      </div>
+    </div>
+  
+    <!--Gallery-->
+    <div class="gallerypage-bg" id="gallery">
+      <div class="background-fill">.</div>
+      <h2 class="top bot center">Gallery</h2>
+      <div id="balloon" class="carousel slide carousel-fade size" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#balloon" data-slide-to="0" class="active"></li>
+          <li data-target="#balloon" data-slide-to="1"></li>
+          <li data-target="#balloon" data-slide-to="2"></li>
+          <li data-target="#balloon" data-slide-to="3"></li>
+          <li data-target="#balloon" data-slide-to="4"></li>
+          <li data-target="#balloon" data-slide-to="5"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active bot">
+            <img src="../shabr/img/balloon-1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item bot">
+            <img src="../shabr/img/balloon-2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item bot">
+            <img src="../shabr/img/balloon-3.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item bot">
+            <img src="../shabr/img/balloon-4.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item bot">
+            <img src="../shabr/img/balloon-5.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item bot">
+            <img src="../shabr/img/balloon-6.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#balloon" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#balloon" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
     </div>
 
