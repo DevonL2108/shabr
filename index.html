@@ -55,24 +55,24 @@
       <h3 class="center"><em>Ride with the wind</em></h3>
       <h3 class="center"><em>Dance with the sky</em></h3>
     </div>
-
-    <!-- Homepage -->
+    
+    <!-- Homepage --> 
     <div class="homepage-bg" id="home">
-      <div class="background-fill">.</div> <!-- fix margin -->
+      <div class="background-fill">.</div> 
       <h2 class="top center">Fun For Everyone!</h2>
       <div class="row">
         <div class="col-sm-4 order-sm-1 fix-margin-homepage">
-          <p class="center bigger-text">Come make a new memory with us. There’s nothing else like it.</p>
+          <p data-toggle="tooltip" class="center bigger-text" data-placement="bottom" title="Come make a new memory with us. There’s nothing else like it.">Hey, come hover over me!</p>
         </div>
         <div class="col-sm-4 order-sm-2 fix-margin-homepage">
-          <p class="center bigger-text">Fun for both adults and kids. All are welcome!</p>
+          <p data-toggle="tooltip" class="center bigger-text" data-placement="bottom" title="Fun for both adults and kids. All are welcome!">No, hover over me first!</p>
         </div>
         <div class="col-sm-4 order-sm-3 fix-margin-homepage">
-          <p class="center bigger-text">Afraid of heights? You won't be after you slow-dance with the sky.</p>
+          <p data-toggle="tooltip" class="center bigger-text" data-placement="bottom" title="Afraid of heights? You won't be after you slow-dance with the sky.">Hover over me and I'll give you a cookie!</p>
         </div>
       </div>
     </div>
-
+   
     <!-- Info Page -->
     <div class="info-page-bg" id="info">
       <div class="background-fill2">.</div>
@@ -247,5 +247,13 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+      <!-- Tooltip -->
+    <script>
+    $(document).ready(function(){
+      $('[data-toggle="tooltip"]').tooltip();
+    });
+    </script>
+    
   </body>
 </html>
