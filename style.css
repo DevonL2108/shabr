@@ -13,6 +13,11 @@
     font-family: 'Oxygen', sans-serif;
 }
 
+.center-title {
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+}
+
 .top {
     margin-top: 50px;
 }
