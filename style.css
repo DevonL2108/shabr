@@ -243,3 +243,7 @@
 .fix-margin {
     margin-top: 60px;
 }
+
+.nav-underline:hover {
+    text-decoration: underline;
+}
